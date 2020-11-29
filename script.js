@@ -1,20 +1,16 @@
 function returnType(x) {
-    console.log(typeof x)
+    console.log(x)
     
 }
-returnType(1);
+returnType(13);
 
 /*создал функцию с названием consol , затем вызвал ее */
 
 function showMi(y) {
-    console.log(y) ;
-    
+   console.log(y) ;
+
+   console.log(returnType === showMi);
+
 }
 
-showMi(13);
-
-function comparison(xy) {
-    console.log(returnType===showMi);
-}
-
-comparison();
+showMi(15);
