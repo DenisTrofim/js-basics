@@ -1,13 +1,13 @@
-function consol() {
-    alert("os the type of a parameter");
+function returnType(x) {
+    console.log(typeof x)
     
 }
-consol();
+returnType(1);
 
 /*создал функцию с названием consol , затем вызвал ее */
 
-function showMi(comparision) {
-    alert (1===3) ;
+function showMi(y) {
+    console.log(1===3) ;
     
 }
 
