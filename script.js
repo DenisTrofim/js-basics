@@ -7,10 +7,14 @@ returnType(1);
 /*создал функцию с названием consol , затем вызвал ее */
 
 function showMi(y) {
-    console.log(1===3) ;
+    console.log(y) ;
     
 }
 
-showMi();
+showMi(13);
 
-/*создал функцию сравнения строгово потом вызвал  */
+function comparison(xy) {
+    console.log(returnType===showMi);
+}
+
+comparison();
