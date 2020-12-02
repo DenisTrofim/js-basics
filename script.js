@@ -1,16 +1,18 @@
-function returnType(x) {
+function returnTypeTwo(x) {
+    console.log(typeof x + '1');
+    console.log(typeof x + '2');
     console.log(x)
     
 }
-returnType(13);
 
-/*создал функцию с названием consol , затем вызвал ее */
+returnTypeTwo(3);
+
+
+
 
 function showMi(y) {
-   console.log(y) ;
-
-   console.log(returnType === showMi);
+   console.log(returnTypeTwo === showMi)
 
 }
 
-showMi(15);
+showMi();
