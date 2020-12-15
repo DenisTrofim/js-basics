@@ -3,10 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>js-basics</title>
+    
 </head>
 <body>
-    Привет!
+    <main>  
+        <div class="main-block">
+
+          <div class="entrance-login">
+            <div class="entrance-login_left">
+                <h3> SIGN IN   SIGN UP</h3>
+            </div>
+          </div>
+
+          <div class="user"><h4>Username</h4></div>
+
+          <div class="first-column"><form action="username">
+           <input type="text" name="user">
+           </form></div>
+         
+          <div class="pass"><h4>Password</h4></div>
+
+          <div class="second-column"><form action="password">
+            <input type="password" name="pass" >
+           </form></div>
+         
+          <div class="login"><h4>Email</h4></div>
+
+          <div class="third-column"><form action="email">
+           <input type="email" name="mail" onclick="input1()"></textarea></div>
+         
+          <div class="telefon"><h4>Phone</h4></div>
+
+          <div class="fourth-column"><form action="phone">
+           <input type="text" name="send" onclick="input1()" ></div>
+        
+          <div class="signed"> 
+            <form action="signed_a">
+              <h4><input type="checkbox" name="a" value="Keep Me Signed In">Keep Me Signed In</h4>
+            </form>
+          </div>
+
+          <div class="button"> <input type="button" value="SING IN" onclick="Function1()">
+          </div>
+         <hr>
+          <div class="help">
+            <p>Forgor Password</p>
+          </div>
+        </div>
+
+    </main>
 
 
     <script src="script.js"></script>  
