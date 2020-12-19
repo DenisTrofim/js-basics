@@ -70,7 +70,7 @@ main {
     color: white;
 }
 
-.button input {
+button {
     color: white;
     background: rgba(255, 182, 65, 1);
     width: 300px;
@@ -81,6 +81,7 @@ main {
     align-items: center;
     justify-content: center;
     display: flex;
+    cursor: pointer;
 }
 
 .help p {
