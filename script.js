@@ -19,13 +19,9 @@
 //}
 
 
-function dataHandler (x) {
-  console.log('.some_name');
-  document.querySelector('some_name');
-  let special = document.querySelector.value( ".some_name,.some_name2,.some_name3" );
-  var select = document.querySelectorAll("div.main-block");
-  var matches = document.body.querySelectorAll('h3');
-  console.log(special);
+function dataHandler () {
+
+  let userNameImpyt = document.querySelector(".user_name").value;
+  console.log(userNameImpyt);
 }
 
-dataHandler();
