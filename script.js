@@ -19,12 +19,13 @@
 //}
 
 
-function buton (x) {
+function dataHandler (x) {
   console.log('.some_name');
   document.querySelector('some_name');
-  var special = document.querySelector( "some_name,some_name2,some_name3" );
+  let special = document.querySelector.value( ".some_name,.some_name2,.some_name3" );
   var select = document.querySelectorAll("div.main-block");
   var matches = document.body.querySelectorAll('h3');
+  console.log(special);
 }
 
-buton();
+dataHandler();
