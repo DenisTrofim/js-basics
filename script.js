@@ -19,9 +19,33 @@
 //}
 
 
-function dataHandler () {
+//function dataHandler () {
+//
+//  let userNameImpyt = document.querySelector("#user_name, #pass, #email, #phone").value;
+//  console.log(userNameImpyt)
+//}
 
-  let userNameImpyt = document.querySelector(".user_name").value;
-  console.log(userNameImpyt);
-}
+function dataHandler () {
+  let userNameInpyt = document.querySelector("#user_name").value;
+  let userNamePass = document.querySelector("#pass").value;
+  let userNameEmail = document.querySelector("#email").value;
+  let userNamePhone = document.querySelector("#phone").value;
+  console.log(userNameInpyt)
+  console.log(userNamePass)
+  console.log(userNameEmail)
+  console.log(userNamePhone)
+
+  let elementis = ['user_name', 'pass', 'email', 'phone'];
+  console.log(elementis)
+  }
+
+
+  function help() {
+    let buttonHelp = document.querySelector("#keep").value;
+    alert('Не могу помочь!!!');
+
+  }
+  
+
+
 

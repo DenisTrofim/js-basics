@@ -84,6 +84,14 @@ button {
     cursor: pointer;
 }
 
+#keep {
+    background: #8b00ff;
+    color: black;
+    outline: none;
+    width: 100%;
+    height: 100%;
+}
+
 .help p {
     cursor: pointer;
 

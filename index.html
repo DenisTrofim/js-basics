@@ -16,8 +16,20 @@
                 <h3> SIGN IN   SIGN UP</h3>
             </div>
           </div>
-
-          <form id="form-id">
+         
+          <!-- <form id="form-id" onsubmit="return false;"> -->
+            <!-- <h3>Username</h3> -->
+            <!-- <input type="text" id="user_name" value=""> -->
+            <!-- <h3>Password</h3> -->
+            <!-- <input type="password" id="pass" value=""> -->
+            <!-- <h3>Email</h3> -->
+            <!-- <input type="email" id="email" value=""> -->
+            <!-- <h3>Phone</h3> -->
+            <!-- <input type="text" id="phone"  value=""> -->
+            <!-- <h4><input type="checkbox" name="a" value="Keep Me Signed In">Keep Me Signed In</h4> -->
+            <!-- <button type="submit" onclick="dataHandler()">SUNG UP</button> -->
+          <!-- </form> -->
+          <form id="form-id" onsubmit="return false;">
             <h3>Username</h3>
             <input type="text" id="user_name" value="">
             <h3>Password</h3>
@@ -26,13 +38,13 @@
             <input type="email" id="email" value="">
             <h3>Phone</h3>
             <input type="text" id="phone" value="">
-            <h4><input type="checkbox" name="a" value="Keep Me Signed In">Keep Me Signed In</h4>
+            <h4><input type="checkbox" id="element"  value="Keep Me Signed In">Keep Me Signed In</h4>
             <button type="submit" onclick="dataHandler()">SUNG UP</button>
           </form>
          <hr>
-          <div class="help">
-            <p>Forgor Password</p>
-          </div>
+          <form id= "miElement" onsubmit="return false;"> 
+            <button type="submit" onclick="help()" id="keep" value="">Forgor Password</button>
+          </form>
         </div>
 
     </main>
