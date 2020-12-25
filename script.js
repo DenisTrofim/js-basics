@@ -47,22 +47,15 @@ function dataHandler () {
 
   let key = {
     user : arr[0],
-    pass : arr[1]
+    pass : arr[1],
+    email : arr[2],
+    phone : arr[3]
 
     }
-   console.log(key.user);
-   console.log(key.pass);
+   console.log(key);
+   
 
   }
-  let key = {
-    user : arr[0],
-    pass : arr[1]
-
-    }
-   console.log(key.user);
-   console.log(key.pass);
-
-  
 
 
 
@@ -75,7 +68,7 @@ function dataHandler () {
 
 
   function help() {
-    let buttonHelp = document.querySelector("#keep").value;
+
     alert('Не могу помочь!!!');
 
   }
