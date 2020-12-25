@@ -37,16 +37,13 @@ function dataHandler () {
 
 
   let arr = [];
-   arr.unshift = ("userNameEmail");
-   arr.push = ("userNamePhone");
+   arr.push  (userNameInpyt);
+   arr.push (userNamePass);
+   arr.push (userNameEmail);
+   arr.push  (userNamePhone);
 
    console.log(arr);
 
- let arrs =[];
-  arrs.unshift = ("userNamePass");
-  arrs.push = ("userNameInpyt");
-  
-  console.log(arrs);
 
   let user = {
     push : [0],
