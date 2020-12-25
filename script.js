@@ -35,9 +35,40 @@ function dataHandler () {
   console.log(userNameEmail)
   console.log(userNamePhone)
 
-  let elementis = ['user_name', 'pass', 'email', 'phone'];
-  console.log(elementis)
+
+  let arr = [];
+  arr.push = ("userNameEmail");
+  console.log(arr);
+
+  let arru =[];
+  arru.push = ("userNamePhone");
+  console.log(arru);
+
+  let mass = [];
+  mass.push = ("userNamePass");
+  console.log(mass);
+
+  let hi = [];
+  hi.push = ("userNameInpyt");
+  console.log(hi);
+
+  let user = {
+    push : "userNameInpyt"
+    }
+    alert(user.push);
+
   }
+
+  
+
+
+
+     
+    
+
+ //let elementis = ['user_name', 'pass', 'email', 'phone'];
+ //console.log(elementis)
+ //}
 
 
   function help() {
@@ -45,7 +76,3 @@ function dataHandler () {
     alert('Не могу помочь!!!');
 
   }
-  
-
-
-
