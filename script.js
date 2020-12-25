@@ -45,14 +45,22 @@ function dataHandler () {
    console.log(arr);
 
 
-  let user = {
-    push : [0],
-    name : [1]
+  let key = {
+    user : arr[0],
+    pass : arr[1]
+
     }
-   console.log(user.name);
-   console.log(user.push);
+   console.log(key.user);
+   console.log(key.pass);
 
   }
+  let key = {
+    user : arr[0],
+    pass : arr[1]
+
+    }
+   console.log(key.user);
+   console.log(key.pass);
 
   
 
